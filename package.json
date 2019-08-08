@@ -1,18 +1,18 @@
 {
   "name": "stylelint-config-team23-standard",
   "version": "0.1.0",
-  "description": "Standard shareable config for stylelint",
+  "description": "Standard shareable config for stylelint at TEAM23",
   "keywords": [
     "stylelint",
     "stylelint-config",
     "scss",
-    "team23"
+    "TEAM23"
   ],
-  "author": "stylelint",
+  "author": "TEAM23",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stylelint/stylelint-config-standard.git"
+    "url": "https://git.team23.de/mmunz/stylelint-config-team23-standard"
   },
   "main": "index.js",
   "files": [
