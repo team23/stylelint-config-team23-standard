@@ -3,6 +3,7 @@
 module.exports = {
   "extends": "stylelint-config-standard",
   "rules": {
+    "selector-max-id": 0,
     "declaration-no-important": true,
     "max-empty-lines": 2,
     "no-descending-specificity": null,
