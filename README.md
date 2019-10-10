@@ -14,13 +14,13 @@ For proposing changes to the ruleset please open either
 
 ## see also
 
-For linting SCSS there is [`stylelint-config-team23-scss`](https://git.team23.de/mmunz/stylelint-config-team23-scss)
+For linting SCSS there is [`stylelint-config-team23-scss`](https://github.com/team23/stylelint-config-team23-scss.git)
 which extends these rules with rules for SCSS.
 
 ## Installation
 
 ```bash
-npm install git+https://git.team23.de/mmunz/stylelint-config-team23-standard.git --save-dev
+npm install git+https://github.com/team23/stylelint-config-team23-standard.git --save-dev
 ```
 
 ## Usage
