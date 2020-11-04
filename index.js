@@ -1,8 +1,8 @@
-"use strict"
+"use strict";
 
 module.exports = {
-  "extends": "stylelint-config-standard",
-  "rules": {
+  extends: "stylelint-config-standard",
+  rules: {
     "selector-max-id": 0,
     "declaration-no-important": true,
     "max-empty-lines": 2,
@@ -18,17 +18,16 @@ module.exports = {
     "max-nesting-depth": [
       3,
       {
-        "ignore": [
-          "pseudo-classes"
-        ]
-      }
+        ignore: ["pseudo-classes"],
+      },
     ],
     "selector-max-compound-selectors": 3,
     "selector-class-pattern": [
       "^[a-z0-9\\-_]+$",
       {
-        "message": "Selector should be written in lowercase with hyphens or underscores (selector-class-pattern)"
-      }
-    ]
+        message:
+          "Selector should be written in lowercase with hyphens or underscores (selector-class-pattern)",
+      },
+    ],
   },
-}
+};
