@@ -29,5 +29,11 @@ module.exports = {
           "Selector should be written in lowercase with hyphens or underscores (selector-class-pattern)",
       },
     ],
+    "value-keyword-case": [
+      "lower",
+      {
+        ignoreProperties: ["font-family", "/^\\$font-family-.*/"]
+      }
+    ]
   },
 };
