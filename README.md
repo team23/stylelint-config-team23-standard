@@ -9,8 +9,8 @@ error checking plus a lot of style checking rules.
 
 For proposing changes to the ruleset please open either
 
--   a merge request
--   a ticket
+- a merge request
+- a ticket
 
 ## see also
 
@@ -54,7 +54,7 @@ Since [stylelint 9.7.0](https://github.com/stylelint/stylelint/blob/9.7.0/CHANGE
 Simply add a `"rules"` key to your config, then add your overrides and additions there.
 
 For example, to change the `selector-max-id` rule to allow one id selector in rules
-(default is: no id selectors allowed): 
+(default is: no id selectors allowed):
 
 ```json
 {
@@ -68,4 +68,3 @@ For example, to change the `selector-max-id` rule to allow one id selector in ru
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
-
