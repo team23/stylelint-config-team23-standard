@@ -16,7 +16,7 @@ module.exports = {
     "font-family-name-quotes": "always-where-recommended",
     "selector-attribute-quotes": "always",
     "max-nesting-depth": [
-      3,
+      4,
       {
         ignore: ["pseudo-classes"],
       },
