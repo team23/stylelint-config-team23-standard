@@ -1,15 +1,15 @@
 image: node:lts
 
 variables:
-  GIT_DEPTH: 1
+    GIT_DEPTH: 1
 
 before_script:
-  - npm install
+    - npm install
 
 stages:
-  - test
+    - test
 
 test:
-  stage: test
-  script:
-    - npm test
+    stage: test
+    script:
+        - npm test

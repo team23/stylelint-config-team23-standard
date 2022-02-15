@@ -1,21 +1,22 @@
 # 0.1.0
 
-- Initial release
+-   Initial release
 
 # 0.2.0
-- Update to use stylelint 13 and stylelint-config standard 20
+
+-   Update to use stylelint 13 and stylelint-config standard 20
 
 # 1.0.0
 
 ## Dependencies
 
-- updated `stylelint` from `^13.7.2` to `^14.5.0`
-- updated `stylelint-config-standard` from `^20.0.0` to `^24.0.0`
-- updated `stylelint` peer dependency to `^14.0.0`, i.e. removed support for older versions
+-   updated `stylelint` from `^13.7.2` to `^14.5.0`
+-   updated `stylelint-config-standard` from `^20.0.0` to `^24.0.0`
+-   updated `stylelint` peer dependency to `^14.0.0`, i.e. removed support for older versions
 
 ## Changes to custom rules
 
-- removed duplicate rules that were or became standard in stylelint-config-standard or stylelint-config-recommended:
+-   removed duplicate rules that were or became standard in stylelint-config-standard or stylelint-config-recommended:
 
 ```js
 "property-no-vendor-prefix": true,
@@ -27,7 +28,7 @@
 "selector-attribute-quotes": "always",
 ```
 
-- disabled all stylistic rules as recommended by stylelint [here](https://stylelint.io/user-guide/rules/list/#stylistic-issues), by changing
+-   disabled all stylistic rules as recommended by stylelint [here](https://stylelint.io/user-guide/rules/list/#stylistic-issues), by changing
 
 ```js
 "max-empty-lines": 2,
@@ -48,7 +49,7 @@ to
 "value-keyword-case": null,
 ```
 
-- and by adding the following to disable all other stylistic rules which might come with stylelint-config-standard. Those should be handled by a pretty printer instead:
+-   and by adding the following to disable all other stylistic rules which might come with stylelint-config-standard. Those should be handled by a pretty printer instead:
 
 ```js
 "function-name-case": null,
