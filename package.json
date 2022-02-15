@@ -22,6 +22,7 @@
     "stylelint-config-standard": "^24.0.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.7.0",
     "eslint-config-stylelint": "^12.0.0",
     "husky": "^4.2.5",
@@ -57,5 +58,10 @@
       "preset-lint-recommended",
       "remark-preset-prettier"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
