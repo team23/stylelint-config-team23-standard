@@ -51,14 +51,14 @@ describe("flags warnings with invalid css", () => {
   it("correct warning text", () => {
     return result.then((data) =>
       expect(data.results[0].warnings[0].text).toBe(
-        "Expected a leading zero (number-leading-zero)"
+        "Expected \".a .b .c .d .e .f .g .h\" to have no more than 3 compound selectors (selector-max-compound-selectors)"
       )
     );
   });
 
   it("correct rule flagged", () => {
     return result.then((data) =>
-      expect(data.results[0].warnings[0].rule).toBe("number-leading-zero")
+      expect(data.results[0].warnings[0].rule).toBe("selector-max-compound-selectors")
     );
   });
 
@@ -70,13 +70,13 @@ describe("flags warnings with invalid css", () => {
 
   it("correct line number", () => {
     return result.then((data) =>
-      expect(data.results[0].warnings[0].line).toBe(2)
+      expect(data.results[0].warnings[0].line).toBe(1)
     );
   });
 
   it("correct column number", () => {
     return result.then((data) =>
-      expect(data.results[0].warnings[0].column).toBe(8)
+      expect(data.results[0].warnings[0].column).toBe(1)
     );
   });
 });
