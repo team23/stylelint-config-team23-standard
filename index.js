@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: 'stylelint-config-standard',
+    extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
     rules: {
         /**
          * Limit the number of ID selectors in a selector.
@@ -53,8 +53,6 @@ module.exports = {
          * Disable stylistic issues as these rules will be deprecated or removed in the future
          * See: https://stylelint.io/user-guide/rules/list/#stylistic-issues
          */
-        'max-empty-lines': null,
-        'string-quotes': null,
         'value-keyword-case': null,
         'function-name-case': null,
         'custom-property-empty-line-before': null,
@@ -63,6 +61,8 @@ module.exports = {
         'at-rule-empty-line-before': null,
         'comment-empty-line-before': null,
         'comment-whitespace-inside': null,
+        'max-empty-lines': null,
+        'string-quotes': null,
         'color-hex-case': null,
         'function-comma-newline-after': null,
         'function-comma-newline-before': null,

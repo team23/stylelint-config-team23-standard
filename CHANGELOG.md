@@ -5,8 +5,9 @@
 -   updated `stylelint` from `^13.7.2` to `^14.5.0`
 -   updated `stylelint-config-standard` from `^20.0.0` to `^24.0.0`
 -   updated `stylelint` peer dependency to `^14.0.0`, i.e. removed support for older versions
+- added `stylelint-config-prettier` dependency
 
-## Changes to custom rules
+## Changes to linting rules
 
 -   removed duplicate rules that were or became standard in stylelint-config-standard or stylelint-config-recommended:
 
@@ -19,6 +20,8 @@
 "font-family-name-quotes": "always-where-recommended",
 "selector-attribute-quotes": "always",
 ```
+
+- by adding `stylelint-config-prettier`, all rules that might cause conflict when using prettier are disabled.
 
 -   disabled all stylistic rules as recommended by stylelint [here](https://stylelint.io/user-guide/rules/list/#stylistic-issues), by changing
 
@@ -41,7 +44,7 @@ to
 "value-keyword-case": null,
 ```
 
--   and by adding the following to disable all other stylistic rules which might come with stylelint-config-standard. Those should be handled by a pretty printer instead:
+-   and by adding the following to disable all other stylistic rules which might come with stylelint-config-standard. Those should be handled by a pretty printer instead.
 
 ```js
 "function-name-case": null,
