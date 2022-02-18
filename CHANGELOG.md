@@ -9,6 +9,13 @@
 
 ## Changes to linting rules
 
+- added these rules which are also set in stylelint-config-standard-scss:
+
+```js
+"at-rule-no-unknown": null,
+"at-rule-disallowed-list": ["debug"],
+```
+
 -   removed duplicate rules that were or became standard in stylelint-config-standard or stylelint-config-recommended:
 
 ```js

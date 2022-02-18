@@ -50,6 +50,16 @@ module.exports = {
         ],
 
         /**
+         * Disallow unknown at-rules.
+         */
+        "at-rule-no-unknown": null,
+
+        /**
+         * Specify a list of disallowed at-rules.
+         */
+        "at-rule-disallowed-list": ["debug"],
+
+        /**
          * Disable stylistic issues as these rules will be deprecated or removed in the future
          * See: https://stylelint.io/user-guide/rules/list/#stylistic-issues
          */
