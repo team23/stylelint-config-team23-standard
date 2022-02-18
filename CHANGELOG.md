@@ -5,14 +5,13 @@
 -   updated `stylelint` from `^13.7.2` to `^14.5.0`
 -   updated `stylelint-config-standard` from `^20.0.0` to `^24.0.0`
 -   updated `stylelint` peer dependency to `^14.0.0`, i.e. removed support for older versions
-- added `stylelint-config-prettier` dependency
+-   added `stylelint-config-prettier` dependency
 
 ## Changes to linting rules
 
-- added these rules which are also set in stylelint-config-standard-scss:
+-   added this rule
 
 ```js
-"at-rule-no-unknown": null,
 "at-rule-disallowed-list": ["debug"],
 ```
 

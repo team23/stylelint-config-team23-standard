@@ -50,11 +50,6 @@ module.exports = {
         ],
 
         /**
-         * Disallow unknown at-rules.
-         */
-        "at-rule-no-unknown": null,
-
-        /**
          * Specify a list of disallowed at-rules.
          */
         "at-rule-disallowed-list": ["debug"],
