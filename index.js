@@ -52,7 +52,7 @@ module.exports = {
         /**
          * Specify a list of disallowed at-rules.
          */
-        "at-rule-disallowed-list": ["debug"],
+        'at-rule-disallowed-list': ['debug'],
 
         /**
          * Disable stylistic issues as these rules will be deprecated or removed in the future

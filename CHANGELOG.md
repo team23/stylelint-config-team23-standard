@@ -27,7 +27,7 @@
 "selector-attribute-quotes": "always",
 ```
 
-- by adding `stylelint-config-prettier`, all rules that might cause conflict when using prettier are disabled.
+-   by adding `stylelint-config-prettier`, all rules that might cause conflict when using prettier are disabled.
 
 -   disabled all stylistic rules as recommended by stylelint [here](https://stylelint.io/user-guide/rules/list/#stylistic-issues), by changing
 

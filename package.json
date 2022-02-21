@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-team23-standard",
-  "version": "1.0.0-rc5",
+  "version": "1.0.0-rc6",
   "description": "Standard shareable config for stylelint at TEAM23",
   "keywords": [
     "stylelint",
@@ -26,7 +26,8 @@
     "lint:md": "remark . --quiet --frail --ignore-path .gitignore",
     "lint": "npm-run-all --parallel lint:*",
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "pretty-quick": "pretty-quick"
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3",
@@ -43,6 +44,7 @@
     "np": "^7.6.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
     "remark-cli": "^10.0.1",
     "stylelint": "^14.5.1"
   },
