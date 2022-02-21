@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-team23-standard",
-  "version": "1.0.0-rc4",
+  "version": "1.0.0-rc5",
   "description": "Standard shareable config for stylelint at TEAM23",
   "keywords": [
     "stylelint",
@@ -44,10 +44,10 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
     "remark-cli": "^10.0.1",
-    "stylelint": "^14.4.0"
+    "stylelint": "^14.5.1"
   },
   "peerDependencies": {
-    "stylelint": "^14.4.0"
+    "stylelint": "^14.5.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
