@@ -4,6 +4,11 @@ module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
     rules: {
         /**
+         * Disallow empty sources.
+         */
+        'no-empty-source': null,
+
+        /**
          * Limit the number of ID selectors in a selector.
          */
         'selector-max-id': 0,

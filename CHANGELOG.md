@@ -9,10 +9,11 @@
 
 ## Changes to linting rules
 
--   added this rule
+-   added rules:
 
 ```js
 "at-rule-disallowed-list": ["debug"],
+"no-empty-source": null,
 ```
 
 -   removed duplicate rules that were or became standard in stylelint-config-standard or stylelint-config-recommended:
