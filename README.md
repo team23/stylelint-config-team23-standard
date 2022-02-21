@@ -1,10 +1,10 @@
 # stylelint-config-team23-standard
 
-> Standard CSS config for TEAM23
+> Standard CSS linting config for TEAM23
 
 Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard), which is the default
-error checking plus a lot of style checking rules.
-
+error checking plus a lot of style checking rules. The style checking rules are disabled by also extending [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier). Our custom ruleset is defined in the
+[`index.js`](./index.js).
 ## Proposing rule changes
 
 For proposing changes to the ruleset please open either
