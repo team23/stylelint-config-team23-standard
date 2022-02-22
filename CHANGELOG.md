@@ -141,7 +141,7 @@ to
 
 ## Changes to stylelint-config-standard
 
-The update from stylelint-config-standard from version 20.0.0 to 24.0.0 introduced the following changes in stylelint-config-standard:
+The update from stylelint-config-standard from version 20.0.0 to 25.0.0 introduced the following changes in stylelint-config-standard:
 
 **added:**
 
@@ -206,7 +206,7 @@ The update from stylelint-config-standard from version 20.0.0 to 24.0.0 introduc
 
 ## Changes to stylelint-config-recommended
 
-As stylelint-config-standard depends on stylelint-config-recommended and the stylelint-config-recommended dependency was updated from version 3.0.0 to 6.0.0 in stylelint-config-standard version 24.0.0, the following changes are introduced to stylelint-config-recommended:
+As stylelint-config-standard depends on stylelint-config-recommended and the stylelint-config-recommended dependency was updated from version 3.0.0 to 6.0.0 in stylelint-config-standard version 25.0.0, the following changes are introduced to stylelint-config-recommended:
 
 **added:**
 
