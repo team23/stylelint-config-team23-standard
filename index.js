@@ -4,6 +4,16 @@ module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
     rules: {
         /**
+         * Disallow unknown type selectors.
+         */
+        'selector-type-no-unknown': null,
+
+        /**
+         * Disallow unknown functions.
+         */
+        'function-no-unknown': null,
+
+        /**
          * Disallow empty sources.
          */
         'no-empty-source': null,
