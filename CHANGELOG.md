@@ -9,6 +9,8 @@
 
 ## Changes to linting rules
 
+-   increased `max-nesting-depth` to 4.
+
 -   added rules:
 
 ```js

@@ -38,7 +38,7 @@ module.exports = {
          * Limit the depth of nesting.
          */
         'max-nesting-depth': [
-            3,
+            4,
             {
                 ignore: [
                     /**
