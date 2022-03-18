@@ -1,16 +1,17 @@
 # stylelint-config-team23-standard
 
-> Standard CSS config for TEAM23
+> Standard CSS linting config for TEAM23
 
 Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard), which is the default
-error checking plus a lot of style checking rules.
+error checking plus a lot of style checking rules. The style checking rules are disabled by also extending [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier). Our custom ruleset is defined in the
+[`index.js`](./index.js).
 
 ## Proposing rule changes
 
 For proposing changes to the ruleset please open either
 
-- a merge request
-- a ticket
+-   a merge request
+-   a ticket
 
 ## see also
 
@@ -29,7 +30,7 @@ If you've installed `stylelint-config-team23-standard` locally within your proje
 
 ```json
 {
-  "extends": "stylelint-config-team23-standard"
+    "extends": "stylelint-config-team23-standard"
 }
 ```
 
@@ -37,7 +38,7 @@ If you've globally installed `stylelint-config-team23-standard` using the `-g` f
 
 ```json
 {
-  "extends": "/absolute/path/to/stylelint-config-team23-standard"
+    "extends": "/absolute/path/to/stylelint-config-team23-standard"
 }
 ```
 
@@ -45,7 +46,7 @@ Since [stylelint 9.7.0](https://github.com/stylelint/stylelint/blob/9.7.0/CHANGE
 
 ```json
 {
-  "extends": "stylelint-config-team23-standard"
+    "extends": "stylelint-config-team23-standard"
 }
 ```
 
@@ -58,10 +59,10 @@ For example, to change the `selector-max-id` rule to allow one id selector in ru
 
 ```json
 {
-  "extends": "stylelint-config-team23-standard",
-  "rules": {
-    "selector-max-id": 1
-  }
+    "extends": "stylelint-config-team23-standard",
+    "rules": {
+        "selector-max-id": 1
+    }
 }
 ```
 
