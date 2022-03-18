@@ -1,3 +1,7 @@
+# 1.0.1
+
+-   updates to `stylelint` from 14.5.1 to 14.6.0
+
 # 1.0.0
 
 ## Dependencies
