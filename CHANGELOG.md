@@ -1,3 +1,7 @@
+# 1.0.4
+
+-   updated readme
+
 # 1.0.3
 
 -   updated version number to be able to publish to npm

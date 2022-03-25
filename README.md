@@ -6,14 +6,7 @@ Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-con
 error checking plus a lot of style checking rules. The style checking rules are disabled by also extending [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier). Our custom ruleset is defined in the
 [`index.js`](./index.js).
 
-## Proposing rule changes
-
-For proposing changes to the ruleset please open either
-
--   a merge request
--   a ticket
-
-## see also
+## See also
 
 For linting SCSS there is [`stylelint-config-team23-scss`](https://github.com/team23/stylelint-config-team23-scss.git)
 which extends these rules with rules for SCSS.
@@ -27,7 +20,7 @@ npm:
 npm install --save-dev @team23/stylelint-config-team23-standard
 
 # specific version
-npm install --save-dev @team23/stylelint-config-team23-standard@1.0.3
+npm install --save-dev @team23/stylelint-config-team23-standard@1.0.4
 ```
 
 or using github (deprecated):
@@ -37,32 +30,16 @@ or using github (deprecated):
 npm install --save-dev github:team23/stylelint-config-team23-standard
 
 # specific version
-npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.3"
+npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.4"
 ```
 
 ## Usage
 
-If you've installed `stylelint-config-team23-standard` locally within your project, just set your `stylelint` config to:
+If you've installed `stylelint-config-team23-standard` locally within your project, just set your stylelint config to:
 
 ```json
 {
-    "extends": "stylelint-config-team23-standard"
-}
-```
-
-If you've globally installed `stylelint-config-team23-standard` using the `-g` flag, then you'll need to use the absolute path to `stylelint-config-team23-standard` in your config e.g.
-
-```json
-{
-    "extends": "/absolute/path/to/stylelint-config-team23-standard"
-}
-```
-
-Since [stylelint 9.7.0](https://github.com/stylelint/stylelint/blob/9.7.0/CHANGELOG.md#970), you can simply use the globally installed configuration name instead of the absolute path:
-
-```json
-{
-    "extends": "stylelint-config-team23-standard"
+    "extends": "@team23/stylelint-config-team23-standard"
 }
 ```
 
@@ -75,12 +52,19 @@ For example, to change the `selector-max-id` rule to allow one id selector in ru
 
 ```json
 {
-    "extends": "stylelint-config-team23-standard",
+    "extends": "@team23/stylelint-config-team23-standard",
     "rules": {
         "selector-max-id": 1
     }
 }
 ```
+
+## Proposing rule changes
+
+For proposing changes to the ruleset please open either
+
+-   a merge request
+-   a ticket
 
 ## [Changelog](CHANGELOG.md)
 
