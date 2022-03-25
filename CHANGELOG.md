@@ -1,3 +1,9 @@
+# 1.0.2
+
+-   the package name changed from `stylelint-config-team23-standard` to `@team23/stylelint-config-team23-standard`
+-   the package is now available via npm!
+-   update readme to include more details about how to install the package
+
 # 1.0.1
 
 -   updates to `stylelint` from 14.5.1 to 14.6.0
