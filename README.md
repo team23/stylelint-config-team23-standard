@@ -20,8 +20,24 @@ which extends these rules with rules for SCSS.
 
 ## Installation
 
+npm:
+
 ```bash
-npm install git+https://github.com/team23/stylelint-config-team23-standard.git --save-dev
+# latest version
+npm install --save-dev @team23/stylelint-config-team23-standard
+
+# specific version
+npm install --save-dev @team23/stylelint-config-team23-standard@1.0.2
+```
+
+or using github (deprecated):
+
+```bash
+# latest version
+npm install --save-dev github:team23/stylelint-config-team23-standard
+
+# specific version
+npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.2"
 ```
 
 ## Usage
