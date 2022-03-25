@@ -1,3 +1,7 @@
+# 1.0.3
+
+-   updated version number to be able to publish to npm
+
 # 1.0.2
 
 -   the package name changed from `stylelint-config-team23-standard` to `@team23/stylelint-config-team23-standard`
