@@ -20,7 +20,7 @@ npm:
 npm install --save-dev @team23/stylelint-config-team23-standard
 
 # specific version
-npm install --save-dev @team23/stylelint-config-team23-standard@1.0.4
+npm install --save-dev @team23/stylelint-config-team23-standard@1.0.5
 ```
 
 or using github (deprecated):
@@ -30,7 +30,7 @@ or using github (deprecated):
 npm install --save-dev github:team23/stylelint-config-team23-standard
 
 # specific version
-npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.4"
+npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.5"
 ```
 
 ## Usage
@@ -42,6 +42,16 @@ If you've installed `stylelint-config-team23-standard` locally within your proje
     "extends": "@team23/stylelint-config-team23-standard"
 }
 ```
+
+If you use a version prior to v1.0.3, use
+
+```json
+{
+    "extends": "stylelint-config-team23-standard"
+}
+```
+
+instead.
 
 ### Extending the config
 

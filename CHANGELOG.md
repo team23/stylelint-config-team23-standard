@@ -1,15 +1,36 @@
+# 1.0.5
+
+-   updates readme and changelog
+
 # 1.0.4
 
--   updated readme
+-   updates readme
 
 # 1.0.3
 
--   updated version number to be able to publish to npm
+-   the package is now available via npm!
+-   the package name changed from `stylelint-config-team23-standard` to `@team23/stylelint-config-team23-standard`
+
+Note that as the package name changed, instead of
+
+```json
+{
+    "extends": "stylelint-config-team23-standard"
+}
+```
+
+in your stylelint config, you have to use
+
+```json
+{
+    "extends": "@team23/stylelint-config-team23-standard"
+}
+```
+
+since this version.
 
 # 1.0.2
 
--   the package name changed from `stylelint-config-team23-standard` to `@team23/stylelint-config-team23-standard`
--   the package is now available via npm!
 -   update readme to include more details about how to install the package
 
 # 1.0.1
