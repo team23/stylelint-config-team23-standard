@@ -1,3 +1,11 @@
+# 2.0.0
+
+-   Removed: `stylelint` less than `14.9.0` from peer dependencies.
+-   updated dep: `stylelint-config-standard` from `25.0.0` to `26.0.0`. This introduces the following changes:
+    -   Added: `'keyframe-block-no-duplicate-selectors': true` rule.
+    -   Added: `'import-notation': 'string'` rule.
+    -   Added: `'selector-not-notation': 'complex'` rule.
+
 # 1.0.5
 
 -   updates readme and changelog
