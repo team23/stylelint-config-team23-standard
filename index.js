@@ -70,6 +70,11 @@ module.exports = {
         'at-rule-disallowed-list': ['debug'],
 
         /**
+         * Specify string or URL notation for @import rules.
+         */
+        'import-notation': null,
+
+        /**
          * Disable stylistic issues as these rules will be deprecated or removed in the future
          * See: https://stylelint.io/user-guide/rules/list/#stylistic-issues
          */
