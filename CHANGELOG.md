@@ -1,3 +1,9 @@
+# 3.0.0
+
+-   Removed: `stylelint` less than `14.14.0` from peer dependencies.
+-   Updated dep: `stylelint-config-standard` from `26.0.0` to `29.0.0`.
+-   Disabled `import-notation` rule.
+
 # 2.0.0
 
 -   Removed: `stylelint` less than `14.9.0` from peer dependencies.
