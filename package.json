@@ -34,7 +34,7 @@
     "stylelint-config-standard": "^29.0.0"
   },
   "devDependencies": {
-    "@stylelint/remark-preset": "^3.0.0",
+    "@stylelint/remark-preset": "^4.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.11.0",
     "eslint-config-stylelint": "^15.0.0",
