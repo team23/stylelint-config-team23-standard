@@ -1,3 +1,18 @@
+# 4.0.0
+
+-   Removed: `stylelint` less than `15.10.0` from peer dependencies. This introduces the following changes:
+    -   Deprecated stylistic rules
+    -   Added the `declaration-property-value-no-unknown` rule
+    -   Removed support for Node.js 12
+-   Updated dep: `stylelint-config-standard` from `29.0.0` to `34.0.0`. This introduces the following changes:
+    -   Added: `media-feature-range-notation: "context"` rule
+    -   Removed: deprecated `no-extra-semicolons` rule.
+    -   Added: `selector-anb-no-unmatchable` rule.
+    -   Changed: `declaration-block-no-duplicate-properties` option to ignore: `['consecutive-duplicates-with-different-syntaxes']`.
+    -   Added: `media-query-no-invalid` rule.
+-   Removed dep: `stylelint-config-prettier` as it is not needed anymore with stylelint 15 and no longer maintained.
+-   Removed disabling stylelistic rules as they are deprecated and no longer used in this or upstream configs.
+
 # 3.0.0
 
 -   Removed: `stylelint` less than `14.14.0` from peer dependencies.
