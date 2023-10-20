@@ -1,3 +1,7 @@
+# 4.0.1
+
+- close CVE-2023-45133
+
 # 4.0.0
 
 -   Removed: `stylelint` less than `15.10.0` from peer dependencies. This introduces the following changes:
