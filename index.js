@@ -3,25 +3,11 @@
 export default {
     extends: ['stylelint-config-standard'],
     rules: {
-        /**
-         * Disallow unknown type selectors.
-         */
-        'selector-type-no-unknown': null,
 
         /**
-         * Disallow unknown functions.
+         * Specify a list of disallowed at-rules.
          */
-        'function-no-unknown': null,
-
-        /**
-         * Disallow empty sources.
-         */
-        'no-empty-source': null,
-
-        /**
-         * Limit the number of ID selectors in a selector.
-         */
-        'selector-max-id': 0,
+        'at-rule-disallowed-list': ['debug'],
 
         /**
          * Disallow !important within declarations.
@@ -29,10 +15,14 @@ export default {
         'declaration-no-important': true,
 
         /**
-         * Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
-         * It is recommended turning this rule off if you use a lot of nesting.
+         * Disallow unknown functions.
          */
-        'no-descending-specificity': null,
+        'function-no-unknown': null,
+
+        /**
+         * Specify string or URL notation for @import rules.
+         */
+        'import-notation': null,
 
         /**
          * Limit the depth of nesting.
@@ -41,6 +31,7 @@ export default {
             4,
             {
                 ignore: [
+
                     /**
                      * Ignore rules where the first selector in each selector list item is a pseudo-class
                      */
@@ -50,9 +41,15 @@ export default {
         ],
 
         /**
-         * Limit the number of compound selectors in a selector.
+         * Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
+         * It is recommended turning this rule off if you use a lot of nesting.
          */
-        'selector-max-compound-selectors': 3,
+        'no-descending-specificity': null,
+
+        /**
+         * Disallow empty sources.
+         */
+        'no-empty-source': null,
 
         /**
          * Specify a pattern for class selectors.
@@ -65,13 +62,18 @@ export default {
         ],
 
         /**
-         * Specify a list of disallowed at-rules.
+         * Limit the number of compound selectors in a selector.
          */
-        'at-rule-disallowed-list': ['debug'],
+        'selector-max-compound-selectors': 3,
 
         /**
-         * Specify string or URL notation for @import rules.
+         * Limit the number of ID selectors in a selector.
          */
-        'import-notation': null,
+        'selector-max-id': 0,
+
+        /**
+         * Disallow unknown type selectors.
+         */
+        'selector-type-no-unknown': null,
     },
 };

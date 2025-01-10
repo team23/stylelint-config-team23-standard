@@ -18,13 +18,13 @@ describe('flags no warnings with valid css', () => {
         });
     });
 
-    it('did not error', () => {
-        return result.then((data) => expect(data.errored).toBeFalsy());
-    });
+    it('did not error', () => result.then(
+        data => expect(data.errored).toBeFalsy(),
+    ));
 
-    it('flags no warnings', () => {
-        return result.then((data) => expect(data.results[0].warnings).toHaveLength(0));
-    });
+    it('flags no warnings', () => result.then(
+        data => expect(data.results[0].warnings).toHaveLength(0),
+    ));
 });
 
 describe('flags warnings with invalid css', () => {
@@ -37,35 +37,33 @@ describe('flags warnings with invalid css', () => {
         });
     });
 
-    it('did error', () => {
-        return result.then((data) => expect(data.errored).toBeTruthy());
-    });
+    it('did error', () => result.then(
+        data => expect(data.errored).toBeTruthy(),
+    ));
 
-    it('flags one warning', () => {
-        return result.then((data) => expect(data.results[0].warnings).toHaveLength(1));
-    });
+    it('flags one warning', () => result.then(
+        data => expect(data.results[0].warnings).toHaveLength(1),
+    ));
 
-    it('correct warning text', () => {
-        return result.then((data) =>
-            expect(data.results[0].warnings[0].text).toBe(
-                'Expected ".a .b .c .d .e .f .g .h" to have no more than 3 compound selectors (selector-max-compound-selectors)',
-            ),
-        );
-    });
+    it('correct warning text', () => result.then(
+        data => expect(data.results[0].warnings[0].text).toBe(
+            'Expected ".a .b .c .d .e .f .g .h" to have no more than 3 compound selectors (selector-max-compound-selectors)',
+        ),
+    ));
 
-    it('correct rule flagged', () => {
-        return result.then((data) => expect(data.results[0].warnings[0].rule).toBe('selector-max-compound-selectors'));
-    });
+    it('correct rule flagged', () => result.then(
+        data => expect(data.results[0].warnings[0].rule).toBe('selector-max-compound-selectors'),
+    ));
 
-    it('correct severity flagged', () => {
-        return result.then((data) => expect(data.results[0].warnings[0].severity).toBe('error'));
-    });
+    it('correct severity flagged', () => result.then(
+        data => expect(data.results[0].warnings[0].severity).toBe('error'),
+    ));
 
-    it('correct line number', () => {
-        return result.then((data) => expect(data.results[0].warnings[0].line).toBe(1));
-    });
+    it('correct line number', () => result.then(
+        data => expect(data.results[0].warnings[0].line).toBe(1),
+    ));
 
-    it('correct column number', () => {
-        return result.then((data) => expect(data.results[0].warnings[0].column).toBe(1));
-    });
+    it('correct column number', () => result.then(
+        data => expect(data.results[0].warnings[0].column).toBe(1),
+    ));
 });
