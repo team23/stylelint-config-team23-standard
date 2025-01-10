@@ -1,6 +1,6 @@
 {
     "name": "@team23/stylelint-config-team23-standard",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "description": "Standard shareable config for stylelint at TEAM23",
     "keywords": [
         "stylelint",
@@ -20,7 +20,6 @@
         "index.js"
     ],
     "scripts": {
-        "format": "prettier . --write",
         "lint": "eslint .",
         "test": "vitest run",
         "watch": "vitest"
