@@ -2,9 +2,10 @@
 
 > Standard CSS linting config for TEAM23
 
-Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard), which is the default
-error checking plus a lot of style checking rules. The style checking rules are disabled by also extending [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier). Our custom ruleset is defined in the
-[`index.js`](./index.js).
+Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard), which is the default error checking plus a lot of style checking rules.
+The style checking rules are disabled by also extending [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier).
+
+Our custom ruleset is defined in the [`index.js`](./index.js).
 
 ## See also
 
@@ -21,16 +22,6 @@ npm install --save-dev @team23/stylelint-config-team23-standard
 
 # specific version
 npm install --save-dev @team23/stylelint-config-team23-standard@1.0.5
-```
-
-or using github (deprecated):
-
-```bash
-# latest version
-npm install --save-dev github:team23/stylelint-config-team23-standard
-
-# specific version
-npm install --save-dev "github:team23/stylelint-config-team23-standard#v1.0.5"
 ```
 
 ## Usage

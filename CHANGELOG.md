@@ -1,3 +1,20 @@
+# 5.0.0
+
+- Removed: stylelint less than 16.12.0 from peer dependencies. This introduces the following changes:
+   - Only ESM syntax is now supported
+   - Removed: 76 rules deprecated in 15.0.0
+- Updated dep: `stylelint-config-standard` from `34.0.0` to `36.0.1`. This introduces the following changes:
+    - Removed: Node.js less than 18.12.0 support.
+    - Changed: updated to stylelint-config-recommended@14.0.0.
+    - Added: lightness-notation: "percentage" rule.
+- Other changes in project:
+    - Migrated eslint to latest with flat config setup and usage of eslint-config-team23-standard
+    - Removed prettier
+    - Updated .editorconfig to use official team23 .editorconfig
+    - Removed dependencies @stylelint/remark-preset, cz-conventional-changelog, husky, lint-staged, npm-run-all
+        and remark-cli
+    - Improved tests for stylint errors
+
 # 4.0.0
 
 -   Removed: `stylelint` less than `15.10.0` from peer dependencies. This introduces the following changes:
