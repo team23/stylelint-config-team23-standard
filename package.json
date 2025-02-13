@@ -25,7 +25,7 @@
         "watch": "vitest"
     },
     "dependencies": {
-        "stylelint-config-standard": "^36.0.1"
+        "stylelint-config-standard": "^37.0.0"
     },
     "devDependencies": {
         "@eslint/compat": "^1.2.4",
