@@ -7,6 +7,18 @@ The style checking rules are disabled by also extending [`stylelint-config-prett
 
 Our custom ruleset is defined in the [`index.js`](./index.js).
 
+## ⚠️ Important Notice: Migration to Monorepo ⚠️
+
+**🚨 This package has been moved to a monorepo! 🚨**
+
+As of 04.06.2025, the project has been migrated to a monorepo structure. You can now find the project at the following location:
+
+**🔗 Monorepo Path:** https://github.com/team23/style-guide/tree/main/libs/css
+
+This move allows us to better manage shared code and collaborate efficiently. Please make sure to update your references to the new monorepo structure.
+
+If you encounter any issues or have questions, please open an issue in the new monorepo repository.
+
 ## See also
 
 For linting SCSS there is [`stylelint-config-team23-scss`](https://github.com/team23/stylelint-config-team23-scss.git)
